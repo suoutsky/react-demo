@@ -1,0 +1,31 @@
+#modal-root {
+    position: relative;
+    z-index: 999;
+  }
+  
+  .app {
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+    background: lightblue;
+    overflow: hidden;
+  }
+  
+  .modal {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .modal_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 300px;
+    height: 200px;
+    padding-top: 60px;
+    background-color: bisque;
+  }

@@ -1,0 +1,3 @@
+React 15：如果你想阻止组件的重复渲染，在class component里可以使用PureComponent, shouldComponentUpdate来帮助你。但是如果你是function component，对不起，没有这个功能， 只能每次都重新渲染。
+
+React 16：为了全面拥抱function component,React团队写了memo来帮助function component实现这个阻止重复渲染的功能。

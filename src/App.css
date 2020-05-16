@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.app-content {
+  display: flex;
+  padding-top: 40px;
+}
+.app-content .meun {
+  padding-right: 20px;
+  text-align: left;
+  color: #09d3ac;
+  width: 240px;
+}
+.app-content .meun .title{
+  color: #000;
+  text-align: left;
+  padding-left: 10px;
+}
+.meun a {
+  color: #09d3ac;
+}
+
+.app-content .content {
+  padding-left: 80px;
+}

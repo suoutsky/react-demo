@@ -1,0 +1,10 @@
+.animate {
+    background-color:beige;
+    width: 1200px;
+    height: 600px;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
